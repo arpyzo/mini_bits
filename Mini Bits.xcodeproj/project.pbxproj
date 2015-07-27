@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		D659DBF11B3CC485006B9722 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659DBF01B3CC485006B9722 /* AppDelegate.swift */; };
-		D659DBF31B3CC485006B9722 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D659DBF21B3CC485006B9722 /* GameScene.sks */; };
 		D659DBF51B3CC485006B9722 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659DBF41B3CC485006B9722 /* GameScene.swift */; };
 		D659DBF71B3CC485006B9722 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D659DBF61B3CC485006B9722 /* GameViewController.swift */; };
 		D659DBFA1B3CC485006B9722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D659DBF81B3CC485006B9722 /* Main.storyboard */; };
@@ -31,7 +30,6 @@
 		D659DBEB1B3CC485006B9722 /* Mini Bits.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Bits.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D659DBEF1B3CC485006B9722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D659DBF01B3CC485006B9722 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D659DBF21B3CC485006B9722 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		D659DBF41B3CC485006B9722 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		D659DBF61B3CC485006B9722 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		D659DBF91B3CC485006B9722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -82,7 +80,6 @@
 			isa = PBXGroup;
 			children = (
 				D659DBF01B3CC485006B9722 /* AppDelegate.swift */,
-				D659DBF21B3CC485006B9722 /* GameScene.sks */,
 				D659DBF41B3CC485006B9722 /* GameScene.swift */,
 				D659DBF61B3CC485006B9722 /* GameViewController.swift */,
 				D659DBF81B3CC485006B9722 /* Main.storyboard */,
@@ -200,7 +197,6 @@
 			files = (
 				D659DBFF1B3CC485006B9722 /* LaunchScreen.xib in Resources */,
 				D659DBFC1B3CC485006B9722 /* Images.xcassets in Resources */,
-				D659DBF31B3CC485006B9722 /* GameScene.sks in Resources */,
 				D659DBFA1B3CC485006B9722 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +413,7 @@
 				D659DC101B3CC485006B9722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D659DC111B3CC485006B9722 /* Build configuration list for PBXNativeTarget "Mini BitsTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +422,7 @@
 				D659DC131B3CC485006B9722 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
